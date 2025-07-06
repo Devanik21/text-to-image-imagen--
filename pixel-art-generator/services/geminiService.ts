@@ -16,7 +16,7 @@ export const generatePixelArt = async (prompt: string): Promise<string> => {
   try {
     console.log("Generating image with prompt:", enhancedPrompt);
     const response = await ai.models.generateImages({
-      model: 'imagen-3.0-generate-002',
+      model: 'gemini-2.0-flash-preview-image-generation',
       prompt: enhancedPrompt,
       config: { numberOfImages: 1, outputMimeType: 'image/png' },
     });
