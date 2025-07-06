@@ -1,0 +1,5 @@
+{
+  "name": "Pixel Art Generator",
+  "description": "An application that uses Google's Imagen model to generate unique pixel art from text descriptions. Bring your retro-gaming and 8-bit art ideas to life.",
+  "requestFramePermissions": []
+}
